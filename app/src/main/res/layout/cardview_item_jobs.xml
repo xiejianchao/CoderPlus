@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    android:id="@+id/card_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    android:clickable="true"
+    android:layout_margin="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+
+    >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            >
+
+            <ImageView
+                android:id="@+id/iv_company_logo"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/p1"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/tv_job_publish_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/darker_gray"
+                android:text="2015-10-15"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_job_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_company_logo"
+                android:layout_toLeftOf="@id/tv_job_publish_date"
+                android:layout_alignParentTop="true"
+                android:singleLine="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:text="高级开发工程师"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_company_logo"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:text="百度"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tv_job_salary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/holo_orange_dark"
+                android:text="30k"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_job_introduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_company_logo"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/darker_gray"
+                android:text="北京 3 - 5年 本科"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">@android:color/transparent</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_navigation">@color/colorPrimary</color>
+
+    <color name="color_tab_background_pressed">@color/colorPrimaryDark</color>
+    <color name="color_indicatorColor_selected">@color/colorPrimary</color>
+    <color name="color_selected_tab_text_color">@color/colorPrimary</color>
+    <color name="color_swiperefresh_color">@color/colorPrimary</color>
+
+    <color name="color_white">#ffffffff</color>
+
+    <color name="color_gray_bg">#bebebe</color>
+
+    <color name="statusbar_bg">#FF0099CC</color>
+
+
+</resources>

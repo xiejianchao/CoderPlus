@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">程序员+</string>
+    <string name="action_settings">Settings</string>
+    <string name="test_str">核心内容区域</string>
+
+    <!-- Drawer String-->
+    <string name="plus_profile">个人资料</string>
+    <string name="plus_notify_set">提醒设置</string>
+    <string name="plus_report">问题反馈</string>
+    <string name="plus_contacts_us">联系我们</string>
+    <string name="plus_app_update">版本更新</string>
+    <string name="plus_about">关于</string>
+
+    <string name="plus_talent">人才</string>
+    <string name="plus_job">工作</string>
+    <string name="plus_dating">交友</string>
+    <string name="plus_tutsau">吐槽</string>
+    <string name="plus_interested">感兴趣</string>
+    <string name="plus_contacts_he">约他</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="plus_android">Android</string>
+    <string name="plus_ios">iOS</string>
+    <string name="plus_java">Java</string>
+    <string name="title_activity_talent">TalentActivity</string>
+    <string name="title_activity_job_details">JobDetailsActivity</string>
+    <string name="title_activity_resume">ResumeActivity</string>
+    <string name="title_activity_dating">DatingActivity</string>
+
+
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="tab_arrays">
+        <item>@string/plus_talent</item>
+        <item>@string/plus_job</item>
+        <item>@string/plus_dating</item>
+    </array>
+
+</resources>

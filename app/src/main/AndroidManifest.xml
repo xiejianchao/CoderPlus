@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.coderplus.materialdrawerdemo" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppMaterialBaseTheme.Default" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppMaterialBaseTheme.NoTransLucent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+            <activity
+                android:name=".LauncherActivity"
+                android:theme="@style/AppMaterialBaseTheme.Launcher"
+                >
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+        -->
+
+
+        <!--
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppMaterialBaseTheme.NoTransLucent">
+        </activity>
+        -->
+
+        <activity
+            android:name=".TalentActivity"
+            android:label="@string/title_activity_talent"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".JobDetailsActivity"
+            android:theme="@style/AppMaterialBaseTheme.Default" >
+        </activity>
+        <activity
+            android:name=".ResumeActivity"
+            android:label="@string/title_activity_resume"
+            android:theme="@style/AppMaterialBaseTheme.Default" >
+        </activity>
+        <activity
+            android:name=".DatingDetailsActivity"
+            android:label="@string/title_activity_dating"
+            android:theme="@style/AppMaterialBaseTheme.Default" >
+        </activity>
+    </application>
+
+</manifest>
