@@ -1,2 +1,2 @@
 # CoderPlus
-This is a demo.
+This is great app.
