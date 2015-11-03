@@ -60,6 +60,7 @@
         <activity
             android:name=".DatingDetailsActivity"
             android:label="@string/title_activity_dating"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustUnspecified|stateHidden"
             android:theme="@style/AppMaterialBaseTheme.Default" >
         </activity>
     </application>

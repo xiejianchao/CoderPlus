@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -15,13 +15,64 @@
     tools:context="com.coderplus.materialdrawerdemo.DatingDetailsActivity">
 
     <TextView
-
+        android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="中国银行客服部联谊活动"
         android:textStyle="bold"
         android:textSize="20sp"
-        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:id="@+id/layout_sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15.11.03"
+            android:textSize="12sp"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_keyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大量妹子放松"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tv_title"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tv_date"
+            />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_content1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时至深秋，天意渐凉，但孤男寡女的内心依然火热，依然在期盼着爱的热火，情的召唤，和难忍的欲火。"
+        android:textSize="16sp"
+        android:lineSpacingMultiplier="1.3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/layout_sub_title"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/transparent"
+        android:cursorVisible="false"
+        android:inputType="none"
         />
 
-</LinearLayout>
+</RelativeLayout>
